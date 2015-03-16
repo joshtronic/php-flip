@@ -1,0 +1,21 @@
+{
+    "name": "joshtronic/php-flip",
+    "description": "PHP port of flip.js",
+    "version": "1.0.0",
+    "keywords": ["string", "flip", "text"],
+    "homepage": "https://github.com/joshtronic/php-flip",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Sherman",
+            "email": "josh@gravityblvd.com",
+            "homepage": "http://joshtronic"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {"joshtronic\\": "src/"}
+    }
+}
